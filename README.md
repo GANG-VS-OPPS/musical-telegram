@@ -8,7 +8,7 @@ Musical Telegram is a Telegram bot that recommends music. It utilizes the Spotif
 Add the bot on Telegram, you will be guided from there.
 
 ### Authors
-Dmytro Yaroshevych, Artem Ovsepian, Anastasia Tkachyshyn, Olha Liuba, Viktoria Maksimiuk, Teodor Muzychuk
+See [AUTHORS](./AUTHORS)
 
 ### License
-MIT (See LICENSE)
+[MIT](./LICENSE)
