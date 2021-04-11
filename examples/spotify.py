@@ -1,4 +1,7 @@
-'''Module with key functions for working with Spotify API.'''
+'''Module with key functions for working with Spotify API.
+
+Модуль був доповнений додатковими функціями під час другого етапу виконання завдання.
+'''
 import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
 from pprint import pprint
@@ -73,9 +76,21 @@ def search_tracks_from_playlist(playlist_id: str):
         print(offset, "/", response['total'])
 
 
-if __name__ == '__main__':
-    print('Track info:')
-    pprint(search_track('sad!'))
+def get_artists_popularities(artists):
+    '''
+    Traverse through a given list of artists and search
+    for their popularity using Spotify API. Return
+    a dictionary of key-value pairs where keys are
+    artists and values are their popularity rate.
+    '''
+    popularities = {}
 
-    print('Playlists:')
-    search_playlists('artem')
+    for artist in artists:
+        if artist not in popularities:
+            search_results = sp.search(artist, 1, 0, 'artist')[
+                'artists']['items']
+
+            if search_results:
+                popularities[artist] = search_results[0]['popularity']
+
+    return popularities
