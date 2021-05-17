@@ -41,16 +41,26 @@ Output: link on it in all the most popular streaming services Apple Music, Spoti
 1. get_links - get links for major streaming services for the given track.
 
 ### Description of the test examples in order to check the program
-Just when the user launches the bot, (s)he receives greeting intro, where bot represents itself. Then the user is to choose one of two options (which are represented at the buttons): to search songs with the playlist of with the inputted set of songs. 
+Just when the user launches the bot, (s)he receives greeting intro, where bot represents itself. Then the user is to choose one of two options (which are represented at the buttons): to search songs with the playlist of with the inputted set of songs.\\ 
+
 ![](pictures/start.jpg)
-When the user decides tot search song with his/her playlist, (s)he is asked to input his playlist id.
+
+When the user decides to search song with his/her playlist, (s)he is asked to input his playlist id.
+
 ![](pictures/playlist.jpg)
+
 Otherwise it is asked to input tracks one by one or just one track.
+
 ![](pictures/tracks.jpg)
+
 Then the whole list of tacks is represented.
+
 ![](pictures/recommendations.jpg)
+
 If the user touches the one track, (s)he can receive the link to different streaming services to listen to music there.
+
 ![](pictures/links.jpg)
+
 ### Authors
 See [AUTHORS](./AUTHORS)
 
