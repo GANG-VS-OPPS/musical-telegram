@@ -1,0 +1,7 @@
+spotify\_worker module
+======================
+
+.. automodule:: spotify_worker
+   :members:
+   :undoc-members:
+   :show-inheritance:
