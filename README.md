@@ -15,14 +15,17 @@ Bot is used for serching and finding the best appropriate tracks using the user'
 
 #### <b>I stage</b>
 Input: choosing the convenient way of inputting the information
+
 Output: going to the second stage
 
 #### <b>II stage</b>
 Input: song name or playlist id
+
 Output: set of recommended songs
 
 #### <b>III stage</b>
 Input: one of the chosen songs
+
 Output: link on it in all the most popular streaming services Apple Music, Spotify, YouTube Music, Amazon Music)
 
 ### Program structure with short description of modules, functions, classes and methods
@@ -41,7 +44,7 @@ Output: link on it in all the most popular streaming services Apple Music, Spoti
 1. get_links - get links for major streaming services for the given track.
 
 ### Description of the test examples in order to check the program
-Just when the user launches the bot, (s)he receives greeting intro, where bot represents itself. Then the user is to choose one of two options (which are represented at the buttons): to search songs with the playlist of with the inputted set of songs.\\ 
+Just when the user launches the bot, (s)he receives greeting intro, where bot represents itself. Then the user is to choose one of two options (which are represented at the buttons): to search songs with the playlist of with the inputted set of songs. 
 
 ![](pictures/start.jpg)
 
